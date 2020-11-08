@@ -1,9 +1,12 @@
 <template>
   <div id="app">
-     <!-- ===== BOX ICONS ===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="src/assets/style.css">
+        <head>
+          <!-- ===== BOX ICONS ===== -->
+          <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+          <!-- ===== CSS ===== -->
+          <link rel="stylesheet" href="src/assets/style.css">
+          
+        </head>
         <Menu />
         <!-- <Dashboard />  -->
     <transition name="slide-fade" mode="out-in">
@@ -52,10 +55,10 @@ export default {
 /* Enter and leave animations can use different */
 /* durations and timing functions.              */
 .slide-fade-enter-active {
-  transition: all .3s ease;
+  transition: all .1s ease;
 }
 .slide-fade-leave-active {
-  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+  transition: all .4s cubic-bezier(1.0, 0.5, 0.8, 1.0);
 }
 .slide-fade-enter, .slide-fade-leave-to
 /* .slide-fade-leave-active below version 2.1.8 */ {
